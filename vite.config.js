@@ -7,8 +7,8 @@ export default defineConfig({
    rollupOptions: {
      input: {
        home: resolve(__dirname, 'index.html'),
-       player: resolve(__dirname, './vite-project-prueba/src/pages/players/index.html'),
-       results: resolve(__dirname, './vite-project-prueba/src/pages/results/index.html'),
+       player: resolve(__dirname, 'src/pages/players/players.html'),
+       results: resolve(__dirname, 'src/pages/results/results.html'),
   
      },
    },

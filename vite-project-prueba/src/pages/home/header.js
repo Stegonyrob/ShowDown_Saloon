@@ -28,7 +28,7 @@ document.getElementById('header').innerHTML = `
       <div class="dropdown-menu" id="navbarNav">
         <ul class="navbar-nav ">
             <li> <a href="/">Home</a></li>
-            <li> <a href="#">Players</a></li>
+            <li> <a href="/src/pages/players/players.html">Players</a></li>
             <li> <a href="#">Results</a></li>
             <li> <a href="#">Settings</a></li>
         </ul>
