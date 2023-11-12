@@ -1,0 +1,9 @@
+@use './src/assets/styles/footer-style.scss';
+@use './src/assets/styles/home-style.scss';
+
+body{
+  background-image: url(./src/assets/img/fondo-papel-grunge.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: auto;
+}
