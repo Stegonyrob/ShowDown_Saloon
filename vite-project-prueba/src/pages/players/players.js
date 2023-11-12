@@ -1,25 +1,26 @@
 import '../home/footer.js';
 import '../home/header.js';
-
+import '../../assets/styles/players-style.scss';
 document.getElementById('cards').innerHTML = `
-
 <section>
 <div id="header"></div>
-    <div id="cards">
-      <section>
-        <h1>Seleciona tu Avatar</h1>
-        <div class="container" id="players">
-          <div class="card" id="avatars">
+<section>
+      <div class="container" >
+          <div id="cards">
+            <h1>Seleciona tu Avatar</h1>
+            <img src="" class="card" id="avatars">
             <input type="text" placeholder="Name" name="name" id="name-input">
-            <button id="add-name-button">Añadir Jugador</button>
-            <button id="delete-name-button">Eliminar Jugador</button>
+            <div>
             <ul id="name-list"></ul>
             <ul id="players_name"></ul>
+            </div>
+            <div>
+            <button id="add-name-button">Añadir Jugador</button>
+            <button id="delete-name-button">Eliminar Jugador</button>
+            </div>
           </div>
-        </div>
-      </section>
     </div>
+    </section>
     <div id="footer"></div>
 </section>
-
 `
