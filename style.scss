@@ -1,8 +1,7 @@
-
+@use 'src/assets/styles/reset-style.scss';
 
 body{
   background-image: url(./src/assets/img/fondo-papel-grunge.png);
   background-repeat: no-repeat;
-  background-size: cover;
   overflow-y: auto;
 }
