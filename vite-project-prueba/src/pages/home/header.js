@@ -14,10 +14,10 @@ document.getElementById('header').innerHTML = `
      <img src="${logo}" class="logo" alt="ShowDown Saloon logo" />
      <i class="fa-solid fa-gear navbar-toggle" ></i>
      <div class="dropdown-menu" id="configNav">
-     <audio controls autoplay loop ">
-       <source src="./src/assets/audio/Western Modern Soundtrack - Freedom Trail Studio.mp3" type="audio/mpeg">
-       Your browser does not support the audio element.
-     </audio>
+        <audio controls autoplay loop >
+          <source src="./src/assets/audio/Western Modern Soundtrack - Freedom Trail Studio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
     </div>
     
       <div class="navbar-toggle" id="navbarToggle">
