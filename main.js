@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   fetch('header.html')
   .then(response => response.text())
   .then(html => document.body.insertAdjacentHTML('beforeend', html));
-  fetch('players.html')
+  
 
   fetch('footer.html')
   .then(response => response.text())
