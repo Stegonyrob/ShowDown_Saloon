@@ -13,4 +13,39 @@
         width: 5rem;
 
     }
+    
+}
+
+#choose{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 8%;
+    justify-items: center;
+    align-items: baseline;
+    margin-top:20vw;  
+
+    #myavatar{
+        width: 75%;
+    }
+    #empty_place {
+        width: 75%;
+        }
+    #nickname{
+        margin: 5%;
+    }
+    #choose_avatar{
+        margin: 5%;
+    }
+}
+
+#save_round{
+    background-color: #9C7D68;
+    border-radius: 1vw;
+    border-color: #e7d8b4 ;
+    width: 50%;
+    height: 10vw;
+    font-size: 4vw;
+    margin: auto;
+    margin-top: 10vw;
+    display: block;
 }
