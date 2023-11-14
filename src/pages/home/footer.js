@@ -9,11 +9,11 @@ import '../../assets/styles/footer-style.scss'
 
 document.getElementById('footer').innerHTML = `
   <footer>
-  <a href="http://github.com/erigt/wheel_of_proyecj.git">
+  <a href="http://github.com/erigt/wheel_of_proyecj.git" target="_blank">
       <i class="fa-brands fa-square-github" ></i></a>
-  <a href="https://discord.com/">
+  <a href="https://discord.com/" target="_blank">
       <i class="fa-brands fa-discord" ></i></a>
-  <a href="https://www.tiktok.com/es/">
+  <a href="https://www.tiktok.com/es/" target="_blank">
       <i class="fa-brands fa-tiktok" ></i></a>
       <p><i class="fa-regular fa-copyright"></i> The West End Five</p>
   </footer>
