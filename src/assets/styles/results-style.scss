@@ -1,0 +1,17 @@
+section {
+    display: flex;
+    justify-content: center;
+}
+#winner {
+    width: 100px;
+}
+#winner-monster {
+    position: relative;
+}
+#trophy {
+    width: 0px;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

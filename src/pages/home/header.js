@@ -7,6 +7,7 @@ import '../../assets/styles/header-style.scss'
 import './hamburguer-animation.js'
 import logo from '../../assets/img/logo.png'
 import './audio.js'
+
 document.getElementById('header').innerHTML = `
   <header>
     <nav class="navbar">
