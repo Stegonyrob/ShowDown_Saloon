@@ -1,23 +1,38 @@
-
-const images = [
-    { id: 'image-1', src: 'image1.jpg', name: 'Image 1' },
-    { id: 'image-2', src: 'image2.jpg', name: 'Image 2' },
-    { id: 'image-3', src: 'image3.jpg', name: 'Image 3' },
-    { id: 'image-4', src: 'image4.jpg', name: 'Image 4' },
-    { id: 'image-5', src: 'image5.jpg', name: 'Image 5' },
-    { id: 'image-6', src: 'image6.jpg', name: 'Image 6' },
-    { id: 'image-7', src: 'image7.jpg', name: 'Image 7' },
-    { id: 'image-8', src: 'image8.jpg', name: 'Image 8' },
-    { id: 'image-9', src: 'image9.jpg', name: 'Image 9' },
-    { id: 'image-10', src: 'image10.jpg', name: 'Image 10' },
-
-    { id: 'image-11', src: 'image11.jpg', name: 'Image 11' },
-    { id: 'image-25', src: 'image25.jpg', name: 'Image 25' }
-  ];
+ 
+  let avatars= [
   
+    { id: '01', src: 'monst_1_cow.svg', name: 'cow-1' },
+    { id: '02', src: 'monst_2_cow.svg', name: 'cow-2' },
+    { id: '03', src: 'monst_3_cow.svg', name: 'cow-3' },
+    { id: '04', src: 'monst_4_cow.svg', name: 'cow-4' },
+    { id: '05', src: 'monst_5_cow.svg', name: 'cow-5' },
+    { id: '06', src: 'monst_6_cow.svg', name: 'cow-6' },
+    { id: '07', src: 'monst_7_cow.svg', name: 'cow-7' },
+    { id: '08', src: 'monst_8_cow.svg', name: 'cow-8' },
+    { id: '09', src: 'monst_9_cow.svg', name: 'cow-9' },
+    { id: '10', src: 'monst_10_cow.svg', name: 'cow-10' },
+    { id: '11', src: 'monst_11_cow.svg', name: 'cow-11' },
+    { id: '12', src: 'monst_12_cow.svg', name: 'cow-12' },
+    { id: '13', src: 'monst_13_cow.svg', name: 'cow-13' },
+    { id: '14', src: 'monst_1_ind.svg', name: 'ind-1' },
+    { id: '15', src: 'monst_2_ind.svg', name: 'ind-2' },
+    { id: '16', src: 'monst_3_ind.svg', name: 'ind-3' },
+    { id: '17', src: 'monst_4_ind.svg', name: 'ind-4' },
+    { id: '18', src: 'monst_5_ind.svg', name: 'ind-5'},
+    { id: '19', src: 'monst_6_ind.svg', name: 'ind-6' },
+    { id: '20', src: 'monst_7_ind.svg', name: 'ind-7' },
+    { id: '21', src: 'monst_8_ind.svg', name: 'ind-8' },
+    { id: '22', src: 'monst_9_ind.svg', name: 'ind-9' },
+    { id: '23', src: 'monst_10_ind.svg', name: 'ind-10' },
+    { id: '24', src: 'monst_11_ind.svg', name: 'ind-11' } , 
+    { id: '25', src: 'monst_12_ind.svg', name: 'ind-12' } , 
+   
+
+]
+
 const gallery = document.querySelector('.gallery');
 
-images.forEach(image => {
+avatars.forEach(image => {
   const imageCard = document.createElement('div');
   imageCard.className = 'image-card';
   imageCard.id = image.id;
@@ -30,13 +45,7 @@ images.forEach(image => {
   const imageInfo = document.createElement('div');
   imageInfo.className = 'image-info';
 
-  const deleteIcon = document.createElement('i');
-  deleteIcon.className = 'delete-icon';
-  deleteIcon.textContent = 'X';
 
-  const editIcon = document.createElement('i');
-  editIcon.className = 'edit-icon';
-  editIcon.textContent = 'E';
 
   const imageName = document.createElement('span');
   imageName.className = 'image-name';
