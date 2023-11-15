@@ -1,0 +1,46 @@
+.panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: transform 300ms;
+    z-index: -1;
+}
+
+.panel div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #BF9C85;
+    width: 400px;
+    height: 400px;
+    z-index: 1000;
+}
+
+p {
+    color: #FAEDD6;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.popup {
+    margin-top: 5%;
+    background: #9C7D68;
+    color: #FAEDD6;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.panel[data-on='on'] {
+    transform: scale(1);
+}
+
+.panel[data-on='off'] {
+    transform: scale(0);
+}

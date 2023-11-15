@@ -4,9 +4,9 @@ document.getElementById('popup').innerHTML = `
 
 <body>
 
-    <button onclick="document.getElementById('advise').setAttribute('data-on','on')">Inicio</button>
+    <button onclick="document.getElementById('start').setAttribute('data-on','on')">Inicio</button>
         
-    <div class="panel" id="advise" data-on="off" onclick="this.setAttribute('data-on','off')">
+    <div class="panel" id="start" data-on="off" onclick="this.setAttribute('data-on','off')">
         <div>
             <p>Has llegado al mejor juego de duelos del lejano Oeste, en el que podrás participar hasta con 25 jugadores.
             </p>
@@ -16,12 +16,13 @@ document.getElementById('popup').innerHTML = `
             <button class="popup" onclick="redirectToNextPage()">Iniciar partida</button>
         </div>
     </div>
-    
-</body>
 
+</body>
 `;
 
+
 function redirectToNextPage() {
-    window.location.href = 'url_pagina.html';
-    }
+  window.location.href = 'players.html';
+  }
+
 
