@@ -16,13 +16,12 @@ document.getElementById('popup').innerHTML = `
             <button class="popup" onclick="redirectToNextPage()">Iniciar partida</button>
         </div>
     </div>
-
-    <script>
-       function redirectToNextPage() {
-         window.location.href = 'url_de_tu_siguiente_pagina.html';
-         }
-    </script>
-
+    
 </body>
 
 `;
+
+function redirectToNextPage() {
+    window.location.href = 'url_pagina.html';
+    }
+
