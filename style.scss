@@ -1,7 +1,11 @@
 @use 'src/assets/styles/reset-style.scss';
 @use 'src/assets/styles/home-style.scss';
+@use 'src/assets/styles/players-style.scss';
+
 body{
-  background-image: url(./src/assets/img/fondo-papel-grunge.png);
+  background-image: url(./src/assets/img/fondo-body.png);
   background-repeat: no-repeat;
   overflow-y: auto;
+  background-size: cover;
+	background-attachment: fixed;
 }
