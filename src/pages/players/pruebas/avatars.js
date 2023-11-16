@@ -34,10 +34,10 @@ const avatarImages = [
 // Agrega los avatares al contenedor
 avatarImages.forEach(imageSrc => {
     const avatarElement = document.createElement('div');
-    avatarElement.classList.add('icons');
+    avatarElement.classList.add('icons'); 
     const imgElement = document.createElement('img');
     imgElement.src = imageSrc;
     imgElement.alt = "avatar";
-    avatarElement.appendChild(imgElement);
-    avatarContainer.appendChild(avatarElement);
+    avatarElement.appendChild(imgElement); 
+    avatarContainer.appendChild(avatarElement); 
   });
